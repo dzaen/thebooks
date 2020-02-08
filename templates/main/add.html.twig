@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Add book{% endblock %}
+
+{% block body %}
+
+    <h3>Add book</h3>
+    <a href="{{ path('main') }}">Home</a><br><br>
+
+    {{ form_start(form) }}
+        <p>Title{{ form_row(form.title) }}</p>
+        <p>Author{{ form_row(form.author) }}</p>
+        <p>Date{{ form_row(form.date) }}</p>
+        <button class="btn btn-default" type="submit">Add book</button>
+    {{ form_end(form) }}
+
+{% endblock %}
