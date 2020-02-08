@@ -78,7 +78,7 @@ sudo chown ubuntu:ubuntu /var/www/thebooks
 
 Теперь перейдите в каталог `/var/www` и клонируйте проект с гитхаба:
 ```
-git clone https://github.com/dzaen/thebooks.git thebooks
+git clone https://github.com/dzaen/thebooks.git
 ```
 
 Перейдите в каталог, в котором хранится клонированный проект, и создайте файл `.env`:
